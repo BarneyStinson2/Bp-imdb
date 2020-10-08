@@ -4,10 +4,10 @@
 // @description Template Maker
 // @author      Blackpearl_Team
 // @icon        https://blackpearl.biz/favicon.png
-// @homepage    https://github.com/BlackPearl-Forum/Blackpearl-Template-Poster/
-// @supportURL  https://github.com/BlackPearl-Forum/Blackpearl-Template-Poster/issues/
-// @updateURL   https://github.com/BlackPearl-Forum/Blackpearl-Template-Poster/raw/Omdb/script.user.js
-// @downloadURL https://github.com/BlackPearl-Forum/Blackpearl-Template-Poster/raw/Omdb/script.user.js
+// @homepage    https://github.com/BarneyStinson2/Bp-imdb/
+// @supportURL  https://github.com/BarneyStinson2/Bp-imdb/issues/
+// @updateURL   https://github.com/BarneyStinson2/Bp-imdb/raw/Omdb/script.user.js
+// @downloadURL https://github.com/BarneyStinson2/Bp-imdb/raw/Omdb/script.user.js
 // @include     /^https:\/\/blackpearl\.biz\/forums\/(129|172|173|174|175|176|178|179|180|181|182|183|184|187|188|189|190|193|194|197|198|199|200|203|204|206|207|208|210|223)\/post-thread/
 // @require     https://code.jquery.com/jquery-3.5.1.min.js
 // @require     https://code.jquery.com/ui/1.12.1/jquery-ui.js
@@ -348,9 +348,9 @@ function generateTemplate(APIVALUE) {
 						: '';
 				let tags = json.Genre && json.Genre !== 'N/A' ? json.Genre : '';
 				MEDIAINFO =
-					"[hr][/hr][indent][size=6][forumcolor][b]Media Info[/b][/forumcolor][/size][/indent]\n [spoiler='Click here to view Media Info']\n " +
+					"[hr][/hr][indent][size=6][forumcolor][b]Media Info[/b][/forumcolor][/size][/indent]\n [spoiler='Click here to view Media Info'][code]\n " +
 					MEDIAINFO +
-					'\n[/spoiler]\n';
+					'\n[/code][/spoiler]\n';
 				ddl =
 					'[hr][/hr][center][size=6][forumcolor][b]Download Link[/b][/forumcolor][/size]\n' +
 					ddl +
